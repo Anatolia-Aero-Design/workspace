@@ -7,6 +7,11 @@ def calculate_speed(x, y, z):
     speed = math.sqrt(x**2 + y**2 + z**2)
     return speed
 
+def mode_guided(mode):
+    if mode == True:
+        return 0
+    else: 
+        return 1
 
 
 def quaternion_to_euler(x, y, z, w):
